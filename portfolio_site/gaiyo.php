@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>エディップのブログ-ブログ概要</title>
+  <title>ポートフォリオサイト</title>
   <link rel="stylesheet" href="CSS/gaiyo.css">
    <!--google上のハンバーガーメニューのリンク-->
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"

@@ -3,7 +3,7 @@ $datafile = 'kanso2.txt';
 include("kanso.php");
 include("../head.php");
 ?>
-  <title>エディップのブログ-Web開発の勉強の進捗</title>
+  <title>テスト2</title>
   <link rel="stylesheet" href="CSS/Sub_Style.css">
 </head>
 <body>
