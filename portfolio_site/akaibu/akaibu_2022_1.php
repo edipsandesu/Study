@@ -2,7 +2,7 @@
 include("head.php");
 ?>
 
-  <title>エディップのブログ-アーカイブ</title>
+  <title>アーカイブ</title>
   <link rel="stylesheet" href="CSS/Home_Style.css">
 </head>
 <body>

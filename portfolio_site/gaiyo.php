@@ -14,7 +14,7 @@
   </header>
 
   <main>
-    <p>このブログでは仕事のこと、趣味のこと、時事ネタ等雑多な話題について発信します。</p>
+    <p>このサイトでは雑多な話題について発信します。</p>
     <br>
 
     <div class="category">
@@ -57,6 +57,7 @@
         <li><a href="">ブログ概要</a></li>
         <li><a href="">仕事</a></li>
         <li><a href="">趣味</a></li>
+        <li><a href="GAME/GAME.php">練習プログラム</a></li>
       </ul>
     <nav>
   </div>

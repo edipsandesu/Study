@@ -55,13 +55,11 @@ include("head.php");
 
     <div class="box">
       <div class="blog_title">
-        <div class="time_2021_12">
-          <a href="file/No1.php">はじめまして</a>
-          <br><br>
-          <a href="file/No2.php">テスト1</a>
-          <br><br>
-          <a href="file/No3.php">テスト2</a>
-        </div>
+        <a href="file/No1.php">はじめまして</a>
+        <br><br>
+        <a href="file/No2.php">テスト1</a>
+        <br><br>
+        <a href="file/No3.php">テスト2</a>
       </div>
 
       <div class="category">
@@ -71,9 +69,11 @@ include("head.php");
             <li><a href="gaiyo.php">概要</a></li>
             <li><a href="">仕事</a></li>
             <li><a href="">趣味</a></li>
+            <li><a href="GAME/GAME.php">練習プログラム</a></li>
           </ul>
         </div>
       </div>
+    </div>
   </main>
   <script src="JS/home.js"></script>
 </body>
