@@ -9,6 +9,7 @@
 </head>
 <body> 
 <div class="box1"></div>
+<div class="box2"></div>
 
 <script src="game.js"></script>
 </body>
