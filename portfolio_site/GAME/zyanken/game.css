@@ -7,7 +7,7 @@ body{
     flex-wrap: wrap; /*親要素の範囲を超えると次に折り返す*/
     width: 400px;
     height: 240px;
-    /*background-color: skyblue;*/
+    background-color: skyblue;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -18,12 +18,11 @@ body{
     flex-wrap: wrap; /*親要素の範囲を超えると次に折り返す*/
     width: 400px;
     height: 240px;
-    /*background-color: skyblue;*/
+    background-color: rgb(255, 253, 109);
     position: relative;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .card{
     transition: 0.7s;
@@ -41,9 +40,11 @@ body{
     transform: rotateY(180deg);
 }
 
+/*カードが選択したらボーダーをつけて選択状態を表す*/
 .card.change{
+    border-style: solid;
     border-width: 2px;
-    border-radius: 5px;
+    border-radius: 2px;
     border-color: rgb(255, 120, 42);
 }
 
@@ -70,10 +71,4 @@ body{
 .card-back{
     background-color: rgb(55, 182, 255);
     color:rgb(255, 174, 0);
-}
-
-.box2{
-    width: 800px;
-    height: 300px;
-    background-color: rgb(255, 253, 109);
 }
