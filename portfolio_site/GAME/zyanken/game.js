@@ -71,6 +71,8 @@
         let card_box1 = document.querySelector(".box1").childNodes[rand];
         card_box1.className = "card open";
 
+        katimake(card, card_box1);
+
         setTimeout(function(){
             card_box1.className = "card";
             card.className = "card";
@@ -79,7 +81,48 @@
         //カードが2枚とも閉じ終わったら再びめくれるようにする
         setTimeout(function(){
             card_flag = 0;
-        }, 1000);
+        }, 1500);
+    }
+
+    function katimake(card, card_box1){
+        let hantei = document.querySelector(".hantei");
+
+        if(card_box1.textContent == card.textContent){
+            hantei.textContent = "あいこ";
+        }
+
+        if(card_box1.textContent == "グー"){
+            console.log("aaa");
+            if(card.textContent == "パー"){
+                hantei.textContent = "勝ち";
+            }
+
+            if(card.textContent == "チョキ"){
+                hantei.textContent = "負け";
+            }
+        }
+
+        if(card_box1.textContent == "チョキ"){
+            console.log("bbb");
+            if(card.textContent == "グー"){
+                hantei.textContent = "勝ち";
+            }
+
+            if(card.textContent == "パー"){
+                hantei.textContent = "負け";
+            }
+        }
+
+        if(card_box1.textContent == "パー"){
+            console.log("ccc");
+            if(card.textContent == "チョキ"){
+                hantei.textContent = "勝ち";
+            }
+
+            if(card.textContent == "グー"){
+                hantei.textContent = "負け";
+            }
+        }
     }
 
     init();

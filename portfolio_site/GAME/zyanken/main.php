@@ -10,6 +10,7 @@
 <body> 
 <div class="box1"></div>
 <div class="box2"></div>
+<div class="hantei"></div>
 
 <script src="game.js"></script>
 </body>
