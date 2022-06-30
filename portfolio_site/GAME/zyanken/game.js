@@ -56,6 +56,7 @@
         //カードがクリックされたら選択状態にする
         card.addEventListener("click", function(){
             if(card_flag == 0){
+                //カードをめくったらフラグを1にして2枚閉じるまでは他のカードを開けないようにする
                 card_flag = 1;
                 card.className = "card change";
                 //選択状態になったらbox1の方のカードをランダムにひっくり返す。
@@ -71,8 +72,9 @@
         let card_box1 = document.querySelector(".box1").childNodes[rand];
         card_box1.className = "card open";
 
+        //カードが開かれたときに勝利判定を行う
         katimake(card, card_box1);
-
+        
         setTimeout(function(){
             card_box1.className = "card";
             card.className = "card";
@@ -87,41 +89,38 @@
     function katimake(card, card_box1){
         let hantei = document.querySelector(".hantei");
 
-        if(card_box1.textContent == card.textContent){
+        if(card_box1.childNodes[0].textContent == card.childNodes[0].textContent){
             hantei.textContent = "あいこ";
         }
 
-        if(card_box1.textContent == "グー"){
-            console.log("aaa");
-            if(card.textContent == "パー"){
+        if(card_box1.childNodes[0].textContent == "グー"){
+            if(card.childNodes[0].textContent == "パー"){
                 hantei.textContent = "勝ち";
             }
 
-            if(card.textContent == "チョキ"){
+            if(card.childNodes[1].textContent == "チョキ"){
                 hantei.textContent = "負け";
-            }
+            }   
         }
 
-        if(card_box1.textContent == "チョキ"){
-            console.log("bbb");
-            if(card.textContent == "グー"){
+        if(card_box1.childNodes[0].textContent == "チョキ"){
+            if(card.childNodes[0].textContent == "グー"){
                 hantei.textContent = "勝ち";
             }
 
-            if(card.textContent == "パー"){
+            if(card.childNodes[1].textContent == "パー"){
                 hantei.textContent = "負け";
-            }
+            }   
         }
 
-        if(card_box1.textContent == "パー"){
-            console.log("ccc");
-            if(card.textContent == "チョキ"){
+        if(card_box1.childNodes[0].textContent == "パー"){
+            if(card.childNodes[0].textContent == "チョキ"){
                 hantei.textContent = "勝ち";
             }
 
-            if(card.textContent == "グー"){
+            if(card.childNodes[1].textContent == "グー"){
                 hantei.textContent = "負け";
-            }
+            }   
         }
     }
 
