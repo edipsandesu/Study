@@ -98,7 +98,7 @@
                 hantei.textContent = "勝ち";
             }
 
-            if(card.childNodes[1].textContent == "チョキ"){
+            if(card.childNodes[0].textContent == "チョキ"){
                 hantei.textContent = "負け";
             }   
         }
@@ -108,7 +108,7 @@
                 hantei.textContent = "勝ち";
             }
 
-            if(card.childNodes[1].textContent == "パー"){
+            if(card.childNodes[0].textContent == "パー"){
                 hantei.textContent = "負け";
             }   
         }
@@ -118,7 +118,7 @@
                 hantei.textContent = "勝ち";
             }
 
-            if(card.childNodes[1].textContent == "グー"){
+            if(card.childNodes[0].textContent == "グー"){
                 hantei.textContent = "負け";
             }   
         }
