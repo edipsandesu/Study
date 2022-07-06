@@ -1,10 +1,9 @@
-<!--これはまだ作り途中のプログラムです。-->
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ジャンケン</title>
   <link rel="stylesheet" href="game.css">
 </head>
 <body> 

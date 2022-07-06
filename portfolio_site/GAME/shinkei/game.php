@@ -6,7 +6,7 @@ date_default_timezone_set('Asia/Tokyo');
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-  <title>ゲーム</title>
+  <title>神経衰弱</title>
   <link rel="stylesheet" href="game.css">
 </head>
 <body>
