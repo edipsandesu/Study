@@ -20,4 +20,17 @@
             gamen.textContent += val[i].textContent;
         });
     }
+
+    val[10].addEventListener("click",function(){
+        gamen.textContent = "";
+    });
+
+    val[15].addEventListener("click",function(){
+        let len = gamen.textContent.length;
+        let arr = [...gamen.textContent];
+
+        console.log(arr);
+
+    });
+
 }
