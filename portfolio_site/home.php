@@ -29,6 +29,7 @@ include("head.php");
         <li><a href="gaiyo.php">概要</a></li>
         <li><a href="">仕事</a></li>
         <li><a href="">趣味</a></li>
+        <li><a href="GAME/GAME.php">練習プログラム</a></li>
       </ul>
     </nav>
   </div>

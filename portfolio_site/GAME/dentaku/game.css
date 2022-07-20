@@ -9,6 +9,8 @@ body{
     background-color: skyblue;
 }
 
+
+
 .box{
     width: 330px;
     height: 500px;
@@ -43,4 +45,11 @@ body{
     height: 500px;
     display: flex; 
     flex-wrap: wrap; 
+}
+
+/*ボタンクリック後のアクション*/
+.val.change{
+    transition: 0s;
+    cursor: none;
+    background: #c2c2c2;
 }
